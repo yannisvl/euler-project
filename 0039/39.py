@@ -40,6 +40,6 @@ for i in g:
     per[np.sum(i)]+=1
 
 print(np.argmax(per))
-print(per[240])
+print(per[np.argmax(per)])
 
 print("time elapsed", time.time()-ti)
